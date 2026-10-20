@@ -14,7 +14,7 @@
         cidade: "",
     });
 
-    const modalOpen = ref(true);
+    const modalOpen = ref(false);
 
     const erros = ref({});
 

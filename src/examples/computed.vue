@@ -1,4 +1,5 @@
 <script setup>
+    import Button from "@/component/Button.vue";
     import { computed, ref } from "vue";
 
     const number = ref(0);
@@ -14,9 +15,9 @@
 
 <template>
     <div class="flex gap-4">
-        <button @click="sub">-</button>
+        <Button @click="sub">-</Button>
         <span class="text-2xl">{{ number }}</span>
-        <button @click="sum">+</button>
+        <Button @click="sum">+</Button>
     </div>
 
     <div>

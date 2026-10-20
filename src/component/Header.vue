@@ -5,12 +5,8 @@
             path: "/",
         },
         {
-            name: "REF",
-            path: "/ref",
-        },
-        {
-            name: "CLICK",
-            path: "/click",
+            name: "EVENTOS",
+            path: "/eventos",
         },
         {
             name: "COMPUTED",

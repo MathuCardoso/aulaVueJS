@@ -10,7 +10,7 @@
         name: String,
     });
 
-    const emit = defineEmits(["input"]);
+    const emit = defineEmits(["input", "change"]);
 </script>
 
 <template>

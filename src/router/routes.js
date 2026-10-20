@@ -1,6 +1,5 @@
-import Click from "@/examples/click.vue";
 import Computed from "@/examples/computed.vue";
-import Ref from "@/examples/ref.vue";
+import Eventos from "@/examples/eventos.vue";
 import Vfor from "@/examples/vfor.vue";
 import Vif from "@/examples/vif.vue";
 import Watch from "@/examples/watch.vue";
@@ -12,12 +11,8 @@ export const routes = [
         component: TodoList,
     },
     {
-        path: "/ref",
-        component: Ref,
-    },
-    {
-        path: "/click",
-        component: Click,
+        path: "/eventos",
+        component: Eventos,
     },
     {
         path: "/computed",
